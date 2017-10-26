@@ -1,0 +1,3 @@
+#!/bin/sh
+
+zip -j pause-night-light@tijnschuurmans.nl.zip pause-night-light@tijnschuurmans.nl/*
