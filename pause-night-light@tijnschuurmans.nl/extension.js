@@ -6,6 +6,12 @@ const Mainloop = imports.mainloop;
 const PopupMenu = imports.ui.popupMenu;
 const Util = imports.misc.util;
 
+const Gettext = imports.gettext.domain('pause-night-light');
+const _ = Gettext.gettext;
+
+const Me = imports.misc.extensionUtils.getCurrentExtension();
+const Convenience = Me.imports.convenience;
+
 const BUS_NAME = 'org.gnome.SettingsDaemon.Color';
 const OBJECT_PATH = '/org/gnome/SettingsDaemon/Color';
 
@@ -35,6 +41,7 @@ function pause(event) {
 }
 
 function init() {
+    Convenience.initTranslations("pause-night-light");
     proxy = new ColorProxy(Gio.DBus.session, BUS_NAME, OBJECT_PATH, (proxy, error) => {
         if (error) {
           log(error.message);
@@ -43,7 +50,7 @@ function init() {
 }
 
 function enable() {
-    pauseItem = new PopupMenu.PopupMenuItem('Disable for 10 s');
+    pauseItem = new PopupMenu.PopupMenuItem(_("Disable for 10 s"));
     pauseItem.connect('activate', Lang.bind(this, function (menuItem, event) {
        pause(event);
     }));
