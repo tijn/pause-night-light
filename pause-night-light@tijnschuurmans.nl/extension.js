@@ -56,7 +56,7 @@ function enable() {
     }));
 
     let menu = Main.panel.statusArea.aggregateMenu._nightLight._item.menu;
-    menu.addMenuItem(pauseItem);
+    menu.addMenuItem(pauseItem, 0);
 }
 
 function disable() {
