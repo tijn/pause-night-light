@@ -1,1 +1,7 @@
-{"name": "Pause Night Light", "description": "Disable Night Light for 10 seconds", "uuid": "pause-night-light@tijnschuurmans.nl", "shell-version": ["3.26"]}
+{
+    "name": "Pause Night Light",
+    "description": "Disable Night Light for 10 second. A small pause can enable you to scan a colour code (e.g. Crontosign) from your screen.",
+    "shell-version": ["3.26"],
+    "uuid": "pause-night-light@tijnschuurmans.nl",
+    "url": "https://github.com/tijn/pause-night-light"
+}
