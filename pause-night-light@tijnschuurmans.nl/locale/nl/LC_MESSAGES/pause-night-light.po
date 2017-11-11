@@ -20,4 +20,4 @@ msgstr ""
 
 #: pause-night-light@tijnschuurmans.nl/extension.js:53
 msgid "Disable for 10 s"
-msgstr "Voor 10 s stoppen"
+msgstr "Kort uitschakelen (10s)"
