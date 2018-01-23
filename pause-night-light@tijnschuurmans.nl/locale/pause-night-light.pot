@@ -18,5 +18,5 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: pause-night-light@tijnschuurmans.nl/extension.js:53
-msgid "Disable for 10 s"
-msgstr ""
+msgid "Disable briefly"
+msgstr "Disable briefly"

@@ -50,7 +50,7 @@ function init() {
 }
 
 function enable() {
-    pauseItem = new PopupMenu.PopupMenuItem(_("Disable for 10 s"));
+    pauseItem = new PopupMenu.PopupMenuItem(_("Disable briefly"));
     pauseItem.connect('activate', Lang.bind(this, function (menuItem, event) {
        pause(event);
     }));
