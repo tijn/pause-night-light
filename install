@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cp -r "pause-night-light@tijnschuurmans.nl" ~/.local/share/gnome-shell/extensions/
