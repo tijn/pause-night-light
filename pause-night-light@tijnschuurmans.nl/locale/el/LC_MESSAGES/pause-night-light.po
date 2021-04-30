@@ -19,5 +19,5 @@ msgstr ""
 "Language: el\n"
 
 #: pause-night-light@tijnschuurmans.nl/extension.js:53
-msgid "Disable briefly"
+msgid "Disable Briefly"
 msgstr "Προσωρινή απενεργοποίηση"
