@@ -1,7 +1,8 @@
 {
-    "name": "Pause Night Light",
-    "description": "Disable Night Light for 10 second. A small pause can enable you to scan a colour code (e.g. Crontosign) from your screen.",
-    "shell-version": ["3.26"],
-    "uuid": "pause-night-light@tijnschuurmans.nl",
-    "url": "https://github.com/tijn/pause-night-light"
+  "name": "Pause Night Light",
+  "description": "Disable Night Light for 10 seconds. This short interruption allows you to scan a colour code (e.g. Crontosign) from your screen.",
+  "shell-version": ["3.26", "40.0"],
+  "uuid": "pause-night-light@tijnschuurmans.nl",
+  "url": "https://github.com/tijn/pause-night-light",
+  "version": 8
 }
